@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el valor a convertir"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:id="@+id/MainInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese numero"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/btnFtoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F/C°"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/btnCtoF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C°/F"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/btnCmstoMts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cms/Mts"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/btnMtstoCms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mts/Cms"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/btnKmstoMts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kms/Mts"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/btnMtstoKms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mts/Kms"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/btnLbstoKgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lbs/kgs"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/btnKgstoLbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kgs/lbs"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:id="@+id/btnDoltoEuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dol/euro"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/btnEurotoDol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="euro/dol"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpiar"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
